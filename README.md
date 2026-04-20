@@ -1,20 +1,9 @@
-# React-shop-cloudfront
+# Mykyta Cherevatyi
 
-This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
-
-- [Vite](https://vitejs.dev/) as a project bundler
-- [React](https://beta.reactjs.org/) as a frontend framework
-- [React-router-dom](https://reactrouterdotcom.fly.dev/) as a routing library
-- [MUI](https://mui.com/) as a UI framework
-- [React-query](https://react-query-v3.tanstack.com/) as a data fetching library
-- [Formik](https://formik.org/) as a form library
-- [Yup](https://github.com/jquense/yup) as a validation schema
-- [Serverless](https://serverless.com/) as a serverless framework
-- [Vitest](https://vitest.dev/) as a test runner
-- [MSW](https://mswjs.io/) as an API mocking library
-- [Eslint](https://eslint.org/) as a code linting tool
-- [Prettier](https://prettier.io/) as a code formatting tool
-- [TypeScript](https://www.typescriptlang.org/) as a type checking tool
+- CloudFrontURL -
+  [d1ikn9n6kn9vfm.cloudfront.net](https://d1ikn9n6kn9vfm.cloudfront.net/)
+- S3 -
+  [deploywebappstack-deploymentfrontendbucket67ceb713-9pktbb81ju3w.s3-website-us-east-1.amazonaws.com/]http://deploywebappstack-deploymentfrontendbucket67ceb713-9pktbb81ju3w.s3-website-us-east-1.amazonaws.com/
 
 ## Available Scripts
 
@@ -40,11 +29,13 @@ Runs linting and formatting for all files in `src` folder.
 
 ### `client:deploy`, `client:deploy:nc`
 
-Deploy the project build from `dist` folder to configured in `serverless.yml` AWS S3 bucket with or without confirmation.
+Deploy the project build from `dist` folder to configured in `serverless.yml`
+AWS S3 bucket with or without confirmation.
 
 ### `client:build:deploy`, `client:build:deploy:nc`
 
-Combination of `build` and `client:deploy` commands with or without confirmation.
+Combination of `build` and `client:deploy` commands with or without
+confirmation.
 
 ### `cloudfront:setup`
 
@@ -60,11 +51,13 @@ Invalidate cloudfront cache.
 
 ### `cloudfront:build:deploy`, `cloudfront:build:deploy:nc`
 
-Combination of `client:build:deploy` and `cloudfront:invalidateCache` commands with or without confirmation.
+Combination of `client:build:deploy` and `cloudfront:invalidateCache` commands
+with or without confirmation.
 
 ### `cloudfront:update:build:deploy`, `cloudfront:update:build:deploy:nc`
 
-Combination of `cloudfront:setup` and `cloudfront:build:deploy` commands with or without confirmation.
+Combination of `cloudfront:setup` and `cloudfront:build:deploy` commands with or
+without confirmation.
 
 ### `serverless:remove`
 
